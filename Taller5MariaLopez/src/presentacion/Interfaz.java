@@ -77,15 +77,14 @@ public class Interfaz {
             System.out.println("8. Mostrar incidencias pendientes");
             System.out.println("9. Mostrar incidencias resueltas");
             System.out.println("10. Mostrar incidencias eliminadas");
-            System.out.println("11. Exportar XML");
-            System.out.println("12. Salir");
+            System.out.println("11. Salir");
 
             if (scanner.hasNextInt()) {
                 opcion = scanner.nextInt();
                 scanner.nextLine(); // Limpiar el buffer
 
                 if (opcion < 1 || opcion > 12) {
-                    System.out.println("Por favor, introduzca un número del 1 al 12.");
+                    System.out.println("Por favor, introduzca un número del 1 al 11.");
                     continue;
                 }
 
